@@ -1,0 +1,146 @@
+ALGORITMOS DE BUSCA - CUBO DE RUBIK 3x3x3
+==================================================
+TESTE COM 2 MOVIMENTOS
+==================================================
+Sequência: D' L'
+----------------------------------------
+
+BFS - movimentos 2 :
+   Solução: L D
+   Movimentos: 2
+   Tempo: 0.010s
+   Estados explorados: 6
+   Memória: 0.03 MB
+   Validação: CORRETA
+
+IDDFS - movimentos 2 :
+   Solução: L D
+   Movimentos: 2
+   Tempo: 0.008s
+   Estados explorados: 7
+   Memória: 0.00 MB
+   Validação: CORRETA
+
+A*-Cruz - movimentos 2 :
+   Solução: L D
+   Movimentos: 2
+   Tempo: 0.003s
+   Estados explorados: 2
+   Memória: 0.00 MB
+   Validação: CORRETA
+
+Bidirecional - movimentos 2 :
+   Solução: L D
+   Movimentos: 2
+   Tempo: 0.001s
+   Estados explorados: 2
+   Memória: 0.00 MB
+   Validação: CORRETA
+TESTE COM 3 MOVIMENTOS
+==================================================
+Sequência: U L L
+----------------------------------------
+
+BFS - movimentos 3 :
+   Solução: L L U'
+   Movimentos: 3
+   Tempo: 0.104s
+   Estados explorados: 62
+   Memória: 0.33 MB
+   Validação: CORRETA
+
+IDDFS - movimentos 3 :
+   Solução: L L U'
+   Movimentos: 3
+   Tempo: 0.052s
+   Estados explorados: 71
+   Memória: 0.00 MB
+   Validação: CORRETA
+
+A*-Cruz - movimentos 3 :
+   Solução: L L U'
+   Movimentos: 3
+   Tempo: 0.013s
+   Estados explorados: 9
+   Memória: 0.03 MB
+   Validação: CORRETA
+
+Bidirecional - movimentos 3 :
+   Solução: L L U'
+   Movimentos: 3
+   Tempo: 0.004s
+   Estados explorados: 7
+   Memória: 0.01 MB
+   Validação: CORRETA
+TESTE COM 4 MOVIMENTOS
+==================================================
+Sequência: B' D U' U
+----------------------------------------
+
+BFS - movimentos 4 :
+   Solução: D' B
+   Movimentos: 2
+   Tempo: 0.013s
+   Estados explorados: 13
+   Memória: 0.07 MB
+   Validação: CORRETA
+
+IDDFS - movimentos 4 :
+   Solução: D' B
+   Movimentos: 2
+   Tempo: 0.015s
+   Estados explorados: 14
+   Memória: 0.00 MB
+   Validação: CORRETA
+
+A*-Cruz - movimentos 4 :
+   Solução: D' B
+   Movimentos: 2
+   Tempo: 0.002s
+   Estados explorados: 2
+   Memória: 0.00 MB
+   Validação: CORRETA
+
+Bidirecional - movimentos 4 :
+   Solução: D' B
+   Movimentos: 2
+   Tempo: 0.001s
+   Estados explorados: 2
+   Memória: 0.00 MB
+   Validação: CORRETA
+TESTE COM 5 MOVIMENTOS
+==================================================
+Sequência: F F' R R F
+----------------------------------------
+
+BFS - movimentos 5 :
+   Solução: F F' F' R R
+   Movimentos: 5
+   Tempo: 1.526s
+   Estados explorados: 1936
+   Memória: 10.31 MB
+   Validação: CORRETA
+
+IDDFS - movimentos 5 :
+   Solução: F F' F' R R
+   Movimentos: 5
+   Tempo: 2.344s
+   Estados explorados: 2779
+   Memória: 0.00 MB
+   Validação: CORRETA
+
+A*-Cruz - movimentos 5 :
+   Solução: F' F F' R R
+   Movimentos: 5
+   Tempo: 0.101s
+   Estados explorados: 81
+   Memória: 0.24 MB
+   Validação: CORRETA
+
+Bidirecional - movimentos 5 :
+   Solução: F F' F' R R
+   Movimentos: 5
+   Tempo: 0.020s
+   Estados explorados: 33
+   Memória: 0.14 MB
+   Validação: CORRETA
